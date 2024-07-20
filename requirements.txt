@@ -4,3 +4,5 @@ python-dotenv==1.0.0
 azure-identity==1.17.1
 msgraph-sdk==1.4.0
 pydantic-settings==2.3.4
+sqlalchemy==2.0.31
+psycopg==3.2.1

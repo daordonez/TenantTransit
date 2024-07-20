@@ -1,0 +1,14 @@
+services:
+  tt-db:
+    image: postgres:latest
+    restart: always
+    container_name: tenant-transit-db
+    environment:
+      POSTGRES_USER: ttdbadmin
+      POSTGRES_PASSWORD: ttdbadmin
+  
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
